@@ -15,7 +15,7 @@ abstract_factory/
 ├── checkbox.py
 ├── factory.py
 ├── main.py
-└── ABSTRACT_FACTORY_DIAGRAM.md  📊
+└── Abstract_Pattern.png  📊
 ```
 
 **Visual Diagram:** See [ABSTRACT_FACTORY_DIAGRAM.md](./ABSTRACT_FACTORY_DIAGRAM.md) for UML class diagram (Mermaid - render in VSCode preview and export PNG).
