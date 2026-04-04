@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Editor/IDE specific files (e.g., VS Code, PyCharm, Sublime Text)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Build artifacts and packaging
+dist/
+build/
+*.egg-info/
+
+# Test and coverage reports
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
