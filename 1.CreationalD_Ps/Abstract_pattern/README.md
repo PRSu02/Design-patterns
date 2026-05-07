@@ -135,3 +135,25 @@ Priyangshu
 ## ⭐ Keep building
 
 Design patterns → clean architecture 🚀
+
+---
+
+## 🆚 Factory Pattern vs Abstract Factory Pattern
+
+| Feature                | Factory Pattern                             | Abstract Factory Pattern                           |
+|------------------------|---------------------------------------------|----------------------------------------------------|
+| **Purpose**            | Creates **one type** of object              | Creates **families of related** objects            |
+| **Number of products** | Single product                              | Multiple related products                          |
+| **Method count**       | One factory method                          | Multiple factory methods                           |
+| **Complexity**         | Simpler                                     | More complex                                       |
+| **Use case**           | One object, subclass decides the type       | Consistent sets of related objects together        |
+| **Example**            | `ShapeFactory.create("circle")`             | `GUIFactory.create_button()` + `create_checkbox()` |
+
+### 🔑 In Short
+
+> **Factory Pattern** → *"Create one object, let subclasses decide which class."*
+>
+> **Abstract Factory Pattern** → *"Create a whole family of related objects that work together."*
+
+Use **Factory** when you have a single product hierarchy.
+Use **Abstract Factory** when your products come in **groups/families** that must stay consistent (e.g., Windows UI components should always look Windows-like together).
